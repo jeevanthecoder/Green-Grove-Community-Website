@@ -31,7 +31,13 @@
    cd user-service
    mvn clean install
    ```
-3. Run the SpringBoot application:
+3. Inside application.properties file, make these changes.
+   ```bash
+   spring.datasource.url=jdbc:mysql://localhost:3306/**your_db_name**?allowPublicKeyRetrieval=True&useSSL=false
+   spring.datasource.username=**your_username**
+   spring.datasource.password=**your_password**
+   ```
+4. Run the SpringBoot application:
    ```bash
    mvn spring-boot:run
    ```
