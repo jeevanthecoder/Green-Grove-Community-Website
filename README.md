@@ -20,11 +20,15 @@
 ## Installation and Setup
 1. Clone the backend repository:
    ```bash
-   git clone https://github.com/yourusername/green-grove-backend.git
+   git clone https://github.com/jeevanthecoder/Green-Grove-Community-Website.git
    ```
 2. Navigate to the backend directory and build the project:
    ```bash
-   cd green-grove-backend
+   cd product-service
+   mvn clean install
+   ```
+   ```bash
+   cd user-service
    mvn clean install
    ```
 3. Run the SpringBoot application:
